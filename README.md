@@ -243,13 +243,9 @@ Order Dispatched
         <img src="https://img.shields.io/badge/RBAC-1F2937?style=for-the-badge" /><br/><br/>
         <img src="https://img.shields.io/badge/Bun_Runtime-FBF0DF?style=for-the-badge&logo=bun&logoColor=black" />
       </td>
-      <td valign="top" align="center">
+     <td valign="top" align="center">
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /><br/><br/>
-        <img src="https://img.shields.io/badge/Pinecone_DB-000000?style=for-the-badge" /><br/><br/>
-        <img src="https://img.shields.io/badge/Data_Modeling-2563EB?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" />
       </td>
       <td valign="top" align="center">
         <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" /><br/><br/>
