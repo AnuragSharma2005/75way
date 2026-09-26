@@ -216,32 +216,59 @@ Order Dispatched
 ## 🧩 Technology Stack & Competencies
 
 <table width="100%">
-  <tr>
-    <td width="33.33%" valign="top">
-      <h4>🌐 Frontend & UI</h4>
-      <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br/>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-    </td>
-    <td width="33.33%" valign="top">
-      <h4>⚙️ Backend & Storage</h4>
-      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /><br/>
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" /><br/>
-      <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
-    </td>
-    <td width="33.33%" valign="top">
-      <h4>🚀 Cloud & Tooling</h4>
-      <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" /><br/>
-      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="20%">🌐 Frontend</th>
+      <th width="20%">⚙️ Backend & APIs</th>
+      <th width="20%">🗄️ Databases</th>
+      <th width="20%">☁️ Cloud & DevOps</th>
+      <th width="20%">🛠️ Tools & Services</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br/><br/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/HTML5%20%2F%20CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      </td>
+      <td valign="top" align="center">
+        <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /><br/><br/>
+        <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" /><br/><br/>
+        <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/RBAC-1F2937?style=for-the-badge" /><br/><br/>
+        <img src="https://img.shields.io/badge/Bun_Runtime-FBF0DF?style=for-the-badge&logo=bun&logoColor=black" />
+      </td>
+      <td valign="top" align="center">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Pinecone_DB-000000?style=for-the-badge" /><br/><br/>
+        <img src="https://img.shields.io/badge/Data_Modeling-2563EB?style=for-the-badge" />
+      </td>
+      <td valign="top" align="center">
+        <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/SSL%20%2F%20DNS-059669?style=for-the-badge" />
+      </td>
+      <td valign="top" align="center">
+        <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" /><br/><br/>
+        <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Google_Sheets_API-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 > ⏳ **Live Demo Note:** The backend is currently hosted on Render's free tier (following domain/plan subscription expiry). The initial server spin-up might take around **2–3 minutes** to wake up on your first visit. Thank you for your patience! 
