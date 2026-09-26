@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Specialization-MERN%20Full--Stack-blue?style=flat-square" alt="Focus"/>
   <img src="https://img.shields.io/badge/Experience-5%2B%20Freelance%20Shipped-brightgreen?style=flat-square" alt="Projects"/>
   <img src="https://img.shields.io/badge/Stack-React%20%7C%20Node%20%7C%20TypeScript%20%7C%20MongoDB-orange?style=flat-square" alt="Stack"/>
-  <img src="https://img.shields.io/badge/Portfolio-iamanurag.me-purple?style=flat-square" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-ianuragsharma.me-purple?style=flat-square" alt="Portfolio"/>
 </p>
 
 Hi, I'm **Anurag Sharma**, a Computer Science Engineering student and **Full-Stack Developer** with hands-on experience building and deploying **5+ freelance full-stack projects** using the MERN stack, TypeScript, and modern web technologies.
@@ -41,7 +41,7 @@ I have engineered **5+ freelance client solutions** across e-commerce, education
     <tr>
       <td><b>🏫 Blueberry Fields School</b><br/><i>Institutional Web Portal</i></td>
       <td><code>React.js</code> <code>Node.js</code> <code>Express.js</code> <code>MongoDB</code> <code>Tailwind CSS</code></td>
-      <td>Admissions engine, interactive feedback channels, geolocated UI & admin CMS.<br/>👉 <a href="https://blueberryfieldsschool.com/">Live Site</a> • <a href="https://github.com/adityasharma0903/blueberry-fields">GitHub</a></td>
+      <td>Admissions engine, interactive feedback channels, geolocated UI & admin CMS.<br/>👉 <a href="https://blueberryfieldsschool.com/">Live Site</a> • <a href="https://github.com/Moksh-Digital/Blueberry-Fields-School">GitHub</a></td>
     </tr>
     <tr>
       <td><b>🍲 Zaika Recipes</b><br/><i>Recipe Box Platform</i></td>
@@ -176,35 +176,31 @@ Dispatch Confirmation
 
 ## 🧩 Technology Stack & Competencies
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%">
-      <b>🌐 Frontend & UI</b><br/>
-      <code>React.js</code> <code>TypeScript</code> <code>JavaScript (ES6+)</code> <code>Tailwind CSS</code> <code>Vite</code>
+    <td width="33.33%" valign="top">
+      <h4>🌐 Frontend & UI</h4>
+      <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
     </td>
-    <td width="50%">
-      <b>⚙️ Backend Engineering</b><br/>
-      <code>Node.js</code> <code>Express.js</code> <code>RESTful APIs</code> <code>JWT</code> <code>RBAC</code>
+    <td width="33.33%" valign="top">
+      <h4>⚙️ Backend & Storage</h4>
+      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
     </td>
-  </tr>
-  <tr>
-    <td>
-      <b>🗄️ Database & Storage</b><br/>
-      <code>MongoDB</code> <code>Mongoose</code> <code>MySQL</code> <code>Firebase</code>
-    </td>
-    <td>
-      <b>💳 Services & Integrations</b><br/>
-      <code>Razorpay</code> <code>Cloudinary</code> <code>Google Sheets API</code> <code>Postman</code>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <b>🚀 Infrastructure & DevOps</b><br/>
-      <code>Nginx</code> <code>Vercel</code> <code>Render</code> <code>Git</code> <code>GitHub</code> <code>Bun</code>
-    </td>
-    <td>
-      <b>🧠 CS Fundamentals</b><br/>
-      <code>Data Structures & Algorithms</code> <code>OOP</code> <code>DBMS</code> <code>OS</code> <code>Networks</code>
+    <td width="33.33%" valign="top">
+      <h4>🚀 Cloud & Tooling</h4>
+      <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" /><br/>
+      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -231,26 +227,64 @@ Dispatch Confirmation
 ```text
 75way/Livique/
 │
-├── backend/                  # Server API routes, models, middleware & controllers
-├── public/                   # Static browser assets & icons
-├── src/                      # React SPA (components, pages, context, hooks)
-├── .gitignore
-├── bun.lockb                 # Lockfile for Bun runtime
-├── components.json           # UI component configurations
-├── eslint.config.js          # Code quality and linting rules
-├── index.html                # Vite entry point
-├── nginx-http.conf           # Reverse proxy HTTP setup
-├── nginx-https.conf          # Reverse proxy HTTPS/SSL setup
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── QUICK_SETUP.sh            # Automated deployment bootstrap script
-├── README.md
-├── tailwind.config.ts        # Tailwind styling rules
-├── test-migration.js
-├── test.js
-├── tsconfig.app.json         # Application TypeScript config
-├── tsconfig.json             # Root TypeScript config
-├── tsconfig.node.json        # Node TypeScript config
-├── vercel.json               # Vercel routing rules
-└── vite.config.ts            # Vite build engine config
+├── 📁 backend/                        # API routes, models & controllers
+├── 📁 public/                         # Static assets & icons
+├── 📁 src/                            # React + TS frontend
+│   ├── 📁 components/                 # UI components
+│   │   ├── 📁 ui/                     # UI primitives
+│   │   ├── ⚛️ Banner.tsx              # Promo banner
+│   │   ├── ⚛️ Footer.tsx              # Page footer
+│   │   ├── ⚛️ Header.tsx              # Navbar & search
+│   │   ├── ⚛️ PushNotificationButton.tsx # Push alerts
+│   │   └── ⚛️ StepsTracker.tsx         # Checkout progress
+│   │
+│   ├── 📁 contexts/                   # State providers
+│   ├── 📁 data/                       # Mock & static data
+│   ├── 📁 hooks/                      # Custom hooks
+│   ├── 📁 lib/                        # Helpers & utils
+│   ├── 📁 pages/                      # Page views
+│   │   ├── ⚛️ About.tsx               # About page
+│   │   ├── ⚛️ Address.tsx             # Address manager
+│   │   ├── ⚛️ Admin.tsx               # Admin panel
+│   │   ├── ⚛️ AdminQueries.tsx        # Support queries
+│   │   ├── ⚛️ Cart.tsx                # Shopping cart
+│   │   ├── ⚛️ Category.tsx            # Category browser
+│   │   ├── ⚛️ Home.tsx                # Homepage
+│   │   ├── ⚛️ Index.tsx               # Root entry
+│   │   ├── ⚛️ NotFound.tsx            # 404 page
+│   │   ├── ⚛️ OrderConfirmation.tsx   # Order success
+│   │   ├── ⚛️ Payment.tsx             # Razorpay checkout
+│   │   ├── ⚛️ ProductDetail.tsx       # Product view
+│   │   ├── ⚛️ ProductList.tsx         # Catalog list
+│   │   ├── ⚛️ ProfilePage.tsx         # User profile
+│   │   ├── ⚛️ SearchResultsPage.tsx   # Search results
+│   │   ├── ⚛️ SignIn.tsx              # Login page
+│   │   └── ⚛️ SignUp.tsx              # Register page
+│   │
+│   ├── 📁 utils/                      # Utilities & formatters
+│   ├── 🎨 App.css                     # App styles
+│   ├── ⚛️ App.tsx                     # Main layout & router
+│   ├── 🎨 index.css                   # Tailwind base styles
+│   ├── ⚛️ main.tsx                    # Root mount
+│   └── 📝 vite-env.d.ts               # Vite types
+│
+├── ⚙️ .gitignore
+├── 📦 bun.lockb                       # Bun lockfile
+├── ⚙️ components.json                 # UI config
+├── ⚙️ eslint.config.js                # ESLint config
+├── 📄 index.html                      # HTML entry
+├── 🌐 nginx-http.conf                 # Nginx HTTP
+├── 🔒 nginx-https.conf                # Nginx HTTPS
+├── 📦 package-lock.json               # Lockfile
+├── 📦 package.json                    # Dependencies
+├── ⚙️ postcss.config.js               # PostCSS config
+├── 📜 QUICK_SETUP.sh                  # Setup script
+├── 📖 README.md                       # Documentation
+├── ⚙️ tailwind.config.ts              # Tailwind config
+├── 🧪 test-migration.js               # Migration tests
+├── 🧪 test.js                         # Unit tests
+├── 📝 tsconfig.app.json               # App TS config
+├── 📝 tsconfig.json                   # Base TS config
+├── 📝 tsconfig.node.json              # Node TS config
+├── 🚀 vercel.json                     # Vercel config
+└── ⚡ vite.config.ts                  # Vite config
