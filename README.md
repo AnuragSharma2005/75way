@@ -237,17 +237,13 @@ Order Dispatched
         <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /><br/><br/>
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" /><br/><br/>
         <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/RBAC-1F2937?style=for-the-badge" /><br/><br/>
-        <img src="https://img.shields.io/badge/Bun_Runtime-FBF0DF?style=for-the-badge&logo=bun&logoColor=black" />
       </td>
       <td valign="top" align="center">
         <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" /><br/><br/>
-        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" /><br/><br/>
         <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" /><br/><br/>
         <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" /><br/><br/>
