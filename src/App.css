@@ -1,0 +1,191 @@
+/* For category grid layout (non-tailwind fallback) */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔧 Global Image Fix */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Optional: subtle zoom on hover */
+img:hover {
+  transform: scale(1.03);
+}
+
+/* 🔧 Common container fix (for cards or image boxes) */
+.image-box,
+.card,
+.image-container {
+  overflow: hidden;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* ✨ RESPONSIVE DIWALI SECTION */
+.diwali-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+}
+
+.diwali-boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-height: fit-content;
+}
+
+/* Desktop - Make boxes square with equal proportions */
+@media (min-width: 1024px) {
+  .diwali-grid {
+    grid-template-columns: 1fr 1.8fr;
+    gap: 24px;
+  }
+
+  .diwali-boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 769px) {
+  .diwali-grid {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 16px;
+  }
+
+  .diwali-boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+}
+
+/* Mobile - Stack vertically */
+@media (max-width: 768px) {
+  .diwali-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .diwali-boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  /* Reduce padding on mobile */
+  main {
+    padding: 16px !important;
+  }
+
+  /* Adjust font sizes for mobile */
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  main {
+    padding: 12px !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+  }
+
+  .diwali-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .diwali-boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+/* ✨ LAYOUT FIX FOR HEADER AND FOOTER */
+/* Ensure content doesn't get hidden under fixed header/footer */
+
+/* Add padding to main content to account for fixed bottom nav on mobile */
+main {
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 80px !important;
+  }
+}
