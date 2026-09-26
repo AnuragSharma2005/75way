@@ -2,82 +2,107 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Specialization-MERN%20Full--Stack-blue?style=flat-square" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Experience-5%2B%20Freelance%20Projects-brightgreen?style=flat-square" alt="Projects"/>
-  <img src="https://img.shields.io/badge/Portfolio-ianuragsharma.me-purple?style=flat-square" alt="Portfolio"/>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Work-success?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/Experience-5%2B%20Freelance%20Shipped-brightgreen?style=flat-square" alt="Projects"/>
+  <img src="https://img.shields.io/badge/Stack-React%20%7C%20Node%20%7C%20TypeScript%20%7C%20MongoDB-orange?style=flat-square" alt="Stack"/>
+  <img src="https://img.shields.io/badge/Portfolio-iamanurag.me-purple?style=flat-square" alt="Portfolio"/>
 </p>
 
-Hi, I'm **Anurag Sharma**, a Computer Science Engineering student and **Full-Stack Developer** with hands-on experience building and deploying **5+ freelance full-stack projects** using the MERN stack and modern web technologies.
+Hi, I'm **Anurag Sharma**, a Computer Science Engineering student and **Full-Stack Developer** with hands-on experience building and deploying **5+ freelance full-stack projects** using the MERN stack, TypeScript, and modern web technologies.
 
-I specialize in developing **responsive, scalable, and production-ready web applications**, covering frontend development, backend APIs, database integration, authentication, payment systems, admin dashboards, and deployment.
+I specialize in developing **responsive, scalable, and production-ready web applications**, covering frontend architectures, backend APIs, database integration, authentication, payment systems, admin dashboards, and cloud deployment.
 
 ---
 
 ## 💼 Freelancing Experience
 
-I have worked on **5+ freelance projects** for businesses and educational organizations, handling projects from **requirements and UI development to backend APIs, database integration, deployment, and maintenance**.
+I have engineered **5+ freelance client solutions** across e-commerce, educational institutions, culinary platforms, and personal brands — driving architecture from SRS gathering to cloud deployment and post-launch maintenance.
 
 ### 🚀 Selected Freelance Projects
 
-| Project | Tech Stack | Key Work | Links |
-| :--- | :--- | :--- | :---: |
-| 🛒 **Livique**<br/><sub>E-Commerce Platform</sub> | `React.js` `Node.js` `Express.js`<br/>`MongoDB` `JWT` `Razorpay` `Cloudinary` | Full-stack e-commerce platform, REST APIs, RBAC, cart, payments, admin dashboard, orders, users, revenue & live chat | [Live](#) • [GitHub](#) |
-| 🎓 **Indo-Canadian Platform**<br/><sub>English Learning Portal</sub> | `React.js` `Google Sheets`<br/>`Apps Script` `Cloudinary` | IELTS, PTE, CELPIP, Communication & Phonics courses, enrollment system, automated emails, admin panel, deployment | [Live](#) • [GitHub](#) |
-| 🏫 **Blueberry Fields School**<br/><sub>Institutional Portal</sub> | `React.js` `Node.js`<br/>`Express.js` `MongoDB` | School portal, admissions, reviews, contact/feedback forms, Google Maps, responsive UI & admin panel | [Live](#) • [GitHub](#) |
-| 🍱 **QuickBites**<br/><sub>Homemade Food Delivery</sub> | `React.js` `Node.js`<br/>`Express.js` `MongoDB` `Razorpay` | Food listings, cart, checkout, payments, order workflow, authentication, image management & delivery features | [Live](#) • [GitHub](#) |
-| ⚖️ **Chanakya AI**<br/><sub>Legal Assistant</sub> | `React.js` `Node.js`<br/>`LangChain` `Pinecone` `RAG` | AI-powered multilingual legal assistant with contextual retrieval, semantic search and RAG-based response generation | [Live](#) • [GitHub](#) |
+<table>
+  <thead>
+    <tr>
+      <th width="32%">Project</th>
+      <th width="40%">Tech Stack</th>
+      <th width="28%">Deliverables & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🛒 Livique</b><br/><i>E-Commerce Platform</i></td>
+      <td><code>React.js</code> <code>TypeScript</code> <code>Node.js</code> <code>Express.js</code> <code>MongoDB</code> <code>JWT</code> <code>Razorpay</code> <code>Cloudinary</code></td>
+      <td>Full-stack multi-category store, RBAC, orders, live payments, admin revenue dashboard.<br/>👉 <a href="https://livique.co.in">Live Site</a> • <a href="https://github.com/AnuragSharma2005/75way">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><b>🎓 Apex Edge English</b><br/><i>Indo-Canadian Client Project</i></td>
+      <td><code>React.js</code> <code>Google Sheets API</code> <code>Apps Script</code> <code>Cloudinary</code> <code>Tailwind CSS</code></td>
+      <td>IELTS, PTE, CELPIP & Phonics course platform, booking automation & admin portal.<br/>👉 <a href="https://apexedgeenglish.com/">Live Site</a> • <a href="https://github.com/AnuragSharma2005/apexedgeenglish">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><b>🏫 Blueberry Fields School</b><br/><i>Institutional Web Portal</i></td>
+      <td><code>React.js</code> <code>Node.js</code> <code>Express.js</code> <code>MongoDB</code> <code>Tailwind CSS</code></td>
+      <td>Admissions engine, interactive feedback channels, geolocated UI & admin CMS.<br/>👉 <a href="https://blueberryfieldsschool.com/">Live Site</a> • <a href="https://github.com/adityasharma0903/blueberry-fields">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><b>🍲 Zaika Recipes</b><br/><i>Recipe Box Platform</i></td>
+      <td><code>React.js</code> <code>Node.js</code> <code>Express.js</code> <code>MongoDB</code> <code>Cloudinary</code></td>
+      <td>Interactive recipe catalog, category filtering, search algorithms & user engagement UI.<br/>👉 <a href="#">Live Demo</a> • <a href="#">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><b>✨ Deepika Chawla</b><br/><i>Anchor & Trainer Portfolio</i></td>
+      <td><code>React.js</code> <code>Tailwind CSS</code> <code>Vite</code> <code>Media Services</code></td>
+      <td>High-conversion personal branding portfolio, corporate media showcase & contact funnel.<br/>👉 <a href="https://deepikashine.com/">Live Site</a> • <a href="https://github.com/AnuragSharma2005/freelancing">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <details>
 <summary><b>🧑‍💻 View Core Freelancing Responsibilities (Click to Expand)</b></summary>
 <br/>
 
-* Designed and developed responsive **frontend interfaces** using React.js and Tailwind CSS.
-* Built **RESTful APIs and backend services** using Node.js and Express.js.
-* Designed and integrated **MongoDB/MySQL databases** for real-world applications.
-* Implemented **JWT authentication, bcrypt password hashing, and Role-Based Access Control**.
-* Integrated third-party services including **Razorpay, Cloudinary, Google Sheets, Apps Script, and email services**.
-* Developed custom **admin dashboards** for managing products, users, orders, content, and business data.
-* Tested and debugged APIs using **Postman**.
-* Managed **DNS, SSL, hosting, deployment, and production configuration**.
-* Worked with real client requirements and delivered complete **end-to-end web solutions**.
+* Designed and built responsive, mobile-first SPAs using **React.js, TypeScript, and Tailwind CSS**.
+* Architected scalable **RESTful APIs and services** with Node.js and Express.js.
+* Modeled high-integrity database schemas using **MongoDB / Mongoose and MySQL**.
+* Implemented production-grade security: **JWT, bcrypt password hashing, CORS, and RBAC tiers**.
+* Integrated critical APIs: **Razorpay payment checkout, Cloudinary media CDN, and Google Sheets automations**.
+* Built dedicated **administrative control rooms** for order fulfillment, user permissions, and content updates.
+* Managed DNS records, SSL handshakes, Nginx reverse-proxies, and cloud deployments on **Vercel / Render**.
 </details>
 
 ---
 
-## 🛍️ Featured Project — E-Commerce Platform
+## 🛍️ Featured Project — Livique E-Commerce Platform
 
-> A production-oriented **full-stack e-commerce platform developed as a freelancing project**, designed to handle the complete online shopping workflow from product discovery and cart management to secure payment and order processing.
+> A production-oriented **full-stack e-commerce engine** built to handle complete digital retail workflows: product discovery, dynamic carts, backend checksum payments, and order tracking.
 
-The platform includes **product management, user authentication, shopping cart, checkout, Razorpay payments, order processing, role-based access control, image management, and an admin dashboard**. It follows a **client-server architecture**, with React.js powering the frontend, Node.js and Express.js handling backend services, and MongoDB storing application data.
+The application follows a modular **client-server architecture** with React + Vite on the presentation layer, Express/Node.js powering the API tier, and MongoDB managing structured data.
 
-### ✨ Core Features
+### ✨ Core Capabilities
 
 <table>
   <tr>
-    <th width="50%">👤 Customer Features</th>
-    <th width="50%">⚙️ Admin Features</th>
+    <th width="50%">👤 Customer Experience</th>
+    <th width="50%">⚙️ Merchant Operations</th>
   </tr>
   <tr>
     <td valign="top">
       <ul>
-        <li>Secure registration and login</li>
-        <li>JWT-based authentication</li>
-        <li>Product browsing, search & categories</li>
-        <li>Shopping cart & quantity management</li>
-        <li>Razorpay online payments & checkout</li>
-        <li>Order placement, history & status tracking</li>
-        <li>Responsive mobile-friendly UI</li>
+        <li>Secure authentication via JWT & bcrypt</li>
+        <li>Instant search with category-based filtering</li>
+        <li>Real-time cart state with quantity sync</li>
+        <li>Razorpay checkout & instant payment hooks</li>
+        <li>Lifecycle order status tracking</li>
+        <li>Fully responsive, mobile-first design</li>
       </ul>
     </td>
     <td valign="top">
       <ul>
-        <li>Centralized admin dashboard</li>
-        <li>Product & Category CRUD operations</li>
-        <li>User and Order management</li>
-        <li>Live order status updates</li>
-        <li>Revenue and sales overview</li>
-        <li>Cloudinary product image management</li>
-        <li>Role-Based Access Control (RBAC)</li>
+        <li>Centralized administrative dashboard</li>
+        <li>Full Product & Category CRUD interfaces</li>
+        <li>Customer order records & state management</li>
+        <li>Order status dispatch & shipping updates</li>
+        <li>High-level store revenue & sales analytics</li>
+        <li>Role-Based Access Control (Admin vs Customer)</li>
       </ul>
     </td>
   </tr>
@@ -96,7 +121,7 @@ The platform includes **product management, user authentication, shopping cart, 
       <pre>
 User Registration
       ↓
-Password Hashing
+Bcrypt Hash
       ↓
 Login → JWT Token
       ↓
@@ -106,23 +131,23 @@ Role Verification
       ↓
 User / Admin Access
       </pre>
-      <sub>• JWT & bcrypt<br/>• Protected API endpoints<br/>• RBAC authorization</sub>
+      <sub>• Stateless JWT auth<br/>• Role-Based Access Control</sub>
     </td>
     <td valign="top">
       <pre>
 Cart → Checkout
       ↓
-Create Razorpay Order
+Razorpay Order
       ↓
-Client Payment Gateway
+Payment Gateway
       ↓
-Payment Verification
+SHA256 Signature Verify
       ↓
-Order Confirmation
+Commit to MongoDB
       ↓
-Save to MongoDB
+Dispatch Confirmation
       </pre>
-      <sub>• Backend checksum verification<br/>• Safe order dispatch</sub>
+      <sub>• Tamper-proof payments<br/>• Server-side verification</sub>
     </td>
     <td valign="top">
       <pre>
@@ -154,12 +179,12 @@ Save to MongoDB
 <table>
   <tr>
     <td width="50%">
-      <b>🌐 Frontend</b><br/>
-      <code>React.js</code> <code>JavaScript</code> <code>Tailwind CSS</code> <code>HTML5</code> <code>CSS3</code>
+      <b>🌐 Frontend & UI</b><br/>
+      <code>React.js</code> <code>TypeScript</code> <code>JavaScript (ES6+)</code> <code>Tailwind CSS</code> <code>Vite</code>
     </td>
     <td width="50%">
-      <b>⚙️ Backend</b><br/>
-      <code>Node.js</code> <code>Express.js</code> <code>REST APIs</code> <code>JWT</code> <code>bcrypt</code>
+      <b>⚙️ Backend Engineering</b><br/>
+      <code>Node.js</code> <code>Express.js</code> <code>RESTful APIs</code> <code>JWT</code> <code>RBAC</code>
     </td>
   </tr>
   <tr>
@@ -168,17 +193,17 @@ Save to MongoDB
       <code>MongoDB</code> <code>Mongoose</code> <code>MySQL</code> <code>Firebase</code>
     </td>
     <td>
-      <b>💳 Services & Payments</b><br/>
+      <b>💳 Services & Integrations</b><br/>
       <code>Razorpay</code> <code>Cloudinary</code> <code>Google Sheets API</code> <code>Postman</code>
     </td>
   </tr>
   <tr>
     <td>
-      <b>🚀 Deployment & Versioning</b><br/>
-      <code>Git</code> <code>GitHub</code> <code>Vercel</code> <code>Render</code> <code>AWS</code>
+      <b>🚀 Infrastructure & DevOps</b><br/>
+      <code>Nginx</code> <code>Vercel</code> <code>Render</code> <code>Git</code> <code>GitHub</code> <code>Bun</code>
     </td>
     <td>
-      <b>🧠 Core Concepts</b><br/>
+      <b>🧠 CS Fundamentals</b><br/>
       <code>Data Structures & Algorithms</code> <code>OOP</code> <code>DBMS</code> <code>OS</code> <code>Networks</code>
     </td>
   </tr>
@@ -188,12 +213,12 @@ Save to MongoDB
 <summary><b>⚡ View Engineering Highlights (Click to Expand)</b></summary>
 <br/>
 
-* Full-stack MERN architecture with modular code separation
-* Secure JWT authentication with HTTP-only cookies / bearer token workflows
-* Razorpay payment gateway integration with robust backend signature verification
-* Asset optimization and dynamic CDN delivery via Cloudinary
-* Scalable MongoDB schemas with indexing and relationship modeling
-* Production-ready deployment setup with strict environment separation
+* Full-stack MERN architecture decoupled with Vite client and Express server
+* End-to-end TypeScript configurations across client and server environments
+* Production Nginx reverse proxy configurations (`nginx-http.conf` & `nginx-https.conf`)
+* Strict payment checksum verification prevents order manipulation
+* Cloudinary asset optimization with automatic format delivery
+* Standardized API testing workflows using Postman
 </details>
 
 ---
@@ -201,29 +226,31 @@ Save to MongoDB
 ## 📂 Project Structure & Setup
 
 <details>
-<summary><b>📁 Directory Structure (Click to Expand)</b></summary>
+<summary><b>📁 Repository Layout (Click to Expand)</b></summary>
 
 ```text
-ecommerce/
+75way/Livique/
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/       # Reusable UI elements
-│   │   ├── pages/            # Page-level route views
-│   │   ├── hooks/            # Custom hooks
-│   │   ├── services/         # API integration layers
-│   │   ├── context/          # Context API providers
-│   │   └── utils/            # Helper utilities
-│   └── package.json
-│
-├── backend/
-│   ├── controllers/          # Request handlers
-│   ├── models/               # MongoDB Mongoose models
-│   ├── routes/               # API endpoints
-│   ├── middleware/           # Auth & error handling
-│   ├── services/             # Third-party integrations
-│   ├── config/               # Database & env config
-│   └── server.js             # Server entry point
-│
+├── backend/                  # Server API routes, models, middleware & controllers
+├── public/                   # Static browser assets & icons
+├── src/                      # React SPA (components, pages, context, hooks)
+├── .gitignore
+├── bun.lockb                 # Lockfile for Bun runtime
+├── components.json           # UI component configurations
+├── eslint.config.js          # Code quality and linting rules
+├── index.html                # Vite entry point
+├── nginx-http.conf           # Reverse proxy HTTP setup
+├── nginx-https.conf          # Reverse proxy HTTPS/SSL setup
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── QUICK_SETUP.sh            # Automated deployment bootstrap script
 ├── README.md
-└── package.json
+├── tailwind.config.ts        # Tailwind styling rules
+├── test-migration.js
+├── test.js
+├── tsconfig.app.json         # Application TypeScript config
+├── tsconfig.json             # Root TypeScript config
+├── tsconfig.node.json        # Node TypeScript config
+├── vercel.json               # Vercel routing rules
+└── vite.config.ts            # Vite build engine config
