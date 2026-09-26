@@ -44,11 +44,6 @@ I have engineered **5+ freelance client solutions** across e-commerce, education
       <td>Admissions engine, interactive feedback channels, geolocated UI & admin CMS.<br/>👉 <a href="https://blueberryfieldsschool.com/">Live Site</a> • <a href="https://github.com/Moksh-Digital/Blueberry-Fields-School">GitHub</a></td>
     </tr>
     <tr>
-      <td><b>🍲 Zaika Recipes</b><br/><i>Recipe Box Platform</i></td>
-      <td><code>React.js</code> <code>Node.js</code> <code>Express.js</code> <code>MongoDB</code> <code>Cloudinary</code></td>
-      <td>Interactive recipe catalog, category filtering, search algorithms & user engagement UI.<br/>👉 <a href="#">Live Demo</a> • <a href="#">GitHub</a></td>
-    </tr>
-    <tr>
       <td><b>✨ Deepika Chawla</b><br/><i>Anchor & Trainer Portfolio</i></td>
       <td><code>React.js</code> <code>Tailwind CSS</code> <code>Vite</code> <code>Media Services</code></td>
       <td>High-conversion personal branding portfolio, corporate media showcase & contact funnel.<br/>👉 <a href="https://deepikashine.com/">Live Site</a> • <a href="https://github.com/AnuragSharma2005/freelancing">GitHub</a></td>
@@ -110,69 +105,113 @@ The application follows a modular **client-server architecture** with React + Vi
 
 ### 🔄 System Architecture & Data Flows
 
-<table>
-  <tr>
-    <th width="33%">🔐 Auth & Security</th>
-    <th width="33%">💳 Payment Pipeline</th>
-    <th width="34%">🏗️ Architecture Map</th>
-  </tr>
-  <tr>
-    <td valign="top">
-      <pre>
-User Registration
-      ↓
-Bcrypt Hash
-      ↓
-Login → JWT Token
-      ↓
-Protected Routes
-      ↓
-Role Verification
-      ↓
-User / Admin Access
-      </pre>
-      <sub>• Stateless JWT auth<br/>• Role-Based Access Control</sub>
-    </td>
-    <td valign="top">
-      <pre>
-Cart → Checkout
-      ↓
-Razorpay Order
-      ↓
-Payment Gateway
-      ↓
-SHA256 Signature Verify
-      ↓
-Commit to MongoDB
-      ↓
-Dispatch Confirmation
-      </pre>
-      <sub>• Tamper-proof payments<br/>• Server-side verification</sub>
-    </td>
-    <td valign="top">
-      <pre>
- ┌──────────────────────┐
- │   React.js Client    │
- └──────────┬───────────┘
-            │ REST APIs
-            ▼
- ┌──────────────────────┐
- │ Node.js + Express.js │
- └─────┬──────────┬─────┘
-       ▼          ▼
- ┌──────────┐ ┌──────────┐
- │ MongoDB  │ │ Razorpay │
- └─────┬────┘ └──────────┘
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="24%">🔐 Auth & Security</th>
+      <th width="24%">💳 Payment Pipeline</th>
+      <th width="26%">🏗️ System Mesh</th>
+      <th width="26%">🚀 CI/CD & Cloud Ops</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <pre>
+Client Credentials
+       │
        ▼
- ┌────────────┐
- │ Cloudinary │
- └────────────┘
-      </pre>
-    </td>
-  </tr>
+[bcrypt Hash / Salt]
+       │
+       ▼
+[JWT Token Signed]
+       │
+       ▼
+Bearer Header Attach
+       │
+       ▼
+Auth Middleware
+       │
+       ▼
+RBAC Access Router
+  ┌────┴────┐
+  ▼         ▼
+[Admin]   [User]
+        </pre>
+        <sub>• Stateless JWT session<br/>• Granular RBAC gates</sub>
+      </td>
+      <td valign="top">
+        <pre>
+Cart Checkout
+       │
+       ▼
+Order Initiated
+       │
+       ▼
+Razorpay SDK Window
+       │
+       ▼
+Customer Payment
+       │
+       ▼
+HMAC SHA-256 Sign
+       │
+       ▼
+Database Commit
+       │
+       ▼
+Order Dispatched
+        </pre>
+        <sub>• Tamper-proof webhook<br/>• Server-side checksum</sub>
+      </td>
+      <td valign="top">
+        <pre>
+┌──────────────────────┐
+│  React.js + Vite UI  │
+└──────────┬───────────┘
+           │ HTTPS / REST
+           ▼
+┌──────────────────────┐
+│ Node.js + Express API│
+└─────┬──────────┬─────┘
+      │          │
+      ▼          ▼
+┌───────────┐ ┌────────────┐
+│  MongoDB  │ │  Razorpay  │
+└─────┬─────┘ └────────────┘
+      │
+      ▼
+┌────────────┐
+│ Cloudinary │
+└────────────┘
+        </pre>
+        <sub>• Decoupled MERN stack<br/>• Cloudinary CDN media</sub>
+      </td>
+      <td valign="top">
+        <pre>
+ git push (main)
+       │
+       ▼
+┌──────────────────────┐
+│  GitHub Repository   │
+└─────┬──────────┬─────┘
+      │          │
+      ▼          ▼
+┌───────────┐ ┌────────────┐
+│  Vercel   │ │DigitalOcean│
+│(Front-End)│ │  / Render  │
+└───────────┘ └─────┬──────┘
+                    │
+                    ▼
+              ┌────────────┐
+              │Nginx + SSL │
+              └────────────┘
+        </pre>
+        <sub>• Automated deployments<br/>• Nginx reverse proxy</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
----
 
 ## 🧩 Technology Stack & Competencies
 
@@ -204,6 +243,9 @@ Dispatch Confirmation
     </td>
   </tr>
 </table>
+
+> ⏳ **Live Demo Note:** The backend is currently hosted on Render's free tier (following domain/plan subscription expiry). The initial server spin-up might take around **2–3 minutes** to wake up on your first visit. Thank you for your patience! 
+
 
 <details>
 <summary><b>⚡ View Engineering Highlights (Click to Expand)</b></summary>
