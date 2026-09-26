@@ -3,7 +3,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Specialization-MERN%20Full--Stack-blue?style=flat-square" alt="Focus"/>
   <img src="https://img.shields.io/badge/Experience-5%2B%20Freelance%20Projects-brightgreen?style=flat-square" alt="Projects"/>
-  <img src="https://img.shields.io/badge/Portfolio-iamanurag.me-purple?style=flat-square" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-ianuragsharma.me-purple?style=flat-square" alt="Portfolio"/>
   <img src="https://img.shields.io/badge/Status-Available%20for%20Work-success?style=flat-square" alt="Status"/>
 </p>
 
