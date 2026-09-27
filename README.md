@@ -3,7 +3,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Specialization-MERN%20Full--Stack-blue?style=flat-square" alt="Focus"/>
   <img src="https://img.shields.io/badge/Experience-5%2B%20Freelance%20Shipped-brightgreen?style=flat-square" alt="Projects"/>
-  <img src="https://img.shields.io/badge/Stack-React%20%7C%20Node%20%7C%20TypeScript%20%7C%20MongoDB-orange?style=flat-square" alt="Stack"/>
+  <img src="https://img.shields.io/badge/Stack-React%20%7C%20Node%20%7C%20Express%20%7C%20MongoDB-orange?style=flat-square" alt="Stack"/>
   <img src="https://img.shields.io/badge/Portfolio-ianuragsharma.me-purple?style=flat-square" alt="Portfolio"/>
 </p>
 
@@ -15,7 +15,7 @@ I specialize in developing **responsive, scalable, and production-ready web appl
 
 ## 💼 Freelancing Experience
 
-I have engineered **5+ freelance client solutions** across e-commerce, educational institutions, culinary platforms, and personal brands — driving architecture from SRS gathering to cloud deployment and post-launch maintenance.
+I have Developed **5+ freelance client solutions** across e-commerce, educational institutions, culinary platforms, and personal brands — driving architecture from SRS gathering to cloud deployment and post-launch maintenance.
 
 ### 🚀 Selected Freelance Projects
 
